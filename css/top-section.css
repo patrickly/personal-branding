@@ -6,35 +6,54 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 80px 0;
+    align-items: center;
 }
 
 #top .info{
     padding: 15px;
+    position: relative;
 } 
 
+#top .info .blue-square {
+    border: 20px solid #dbf1ff;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    z-index: 0;
+    top: -70%;
+    left: -50%;
+}
 
 #top .info h1{
+    position: relative;
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 700;
     color: #161710;
-    /* https://www.quora.com/What-does-it-mean-when-someone-refers-to-a-flat-color-What-is-the-difference-from-a-non-flat-color */
     margin-bottom: 2rem;
+    z-index: 1;
 } 
 
 #top .info p{
+    position: relative;
     color: #919191;
     text-transform: capitalize;
     margin-bottom: 4rem;
+    z-index: 1;
+    /* If you add a z-index, then you must add the position property */
 }
 
 #top .info a{
+    position: relative;
+    font-size: .9rem;
     color: #161710;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
     text-decoration: none;
     padding-bottom: 5px;
     border-bottom: 2px solid #000;
+    z-index: 1;
+    letter-spacing: 2px;
 }
 
 
@@ -52,4 +71,5 @@
     width: 100%;
     max-width: 700px;
     height: 800px;
+    margin: 0 auto;
 } 
