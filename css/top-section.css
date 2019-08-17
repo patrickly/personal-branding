@@ -9,8 +9,35 @@
 }
 
 #top .info{
-    
+    padding: 15px;
 } 
+
+
+#top .info h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #161710;
+    /* https://www.quora.com/What-does-it-mean-when-someone-refers-to-a-flat-color-What-is-the-difference-from-a-non-flat-color */
+    margin-bottom: 2rem;
+} 
+
+#top .info p{
+    color: #919191;
+    text-transform: capitalize;
+    margin-bottom: 4rem;
+}
+
+#top .info a{
+    color: #161710;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #000;
+}
+
+
 
 #top .img{
 
@@ -25,5 +52,4 @@
     width: 100%;
     max-width: 700px;
     height: 800px;
-    /* https://stackoverflow.com/questions/5675637/css-width-100-or-max-width-in-pixels */
 } 
