@@ -1,3 +1,7 @@
 @import "cssreset.css";
 @import "top-section.css";
 
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
