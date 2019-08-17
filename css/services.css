@@ -1,0 +1,49 @@
+#services {
+    padding: 80px 15px;
+}
+
+#services .title {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#services .title .circle {
+    background: #eef9ff;
+    height: 150px;
+    width: 150px; 
+    border-radius: 50%;
+    position: absolute;
+    top: 23px;
+}
+
+#services .title h1 {
+
+    position: relative;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #161710;
+    z-index: 1;
+    letter-spacing: 4px;
+
+}
+
+#services .services-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#services .services-container .box {
+    background: rgba(255,255,255, 0);
+    transition: all .4s ease-in-out;
+}
+
+#services .services-container .box:hover {
+    background: rgba(255,255,255, 1);
+}
+

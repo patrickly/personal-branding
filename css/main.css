@@ -3,6 +3,9 @@
 @import "top-section.css";
 @import "services.css";
 
+body{
+    background: #eeeeee;
+}
 
 
 .container {
