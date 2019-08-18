@@ -60,11 +60,13 @@
     padding: 10px 20px;
     background: rgba(255, 255, 255, 0);
     transition: all .4s ease-in-out;
+    height: 100%;
+    width: 100%;
 }
 
 #portfolio-section .portfolio-container .box:hover .image .hover-bg {
     padding: 10px 20px;
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 53, 53, 0.8);
     height: 100%;
     width: 100%;
 }
@@ -97,8 +99,7 @@
 }
 
 #portfolio-section .portfolio-container .box.image1 .image{
-    background: url('https://cdn.dribbble.com/users/257709/screenshots/4695956/singapoure_shot_0_5x.png');
-    /* https://dribbble.com/shots/4695956-inner-page-contact-us */
+    background: url('https://cdn.dribbble.com/users/1846841/screenshots/4301291/f_r_a_n_c_o.gif');
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -111,7 +112,7 @@
 }
 
 #portfolio-section .portfolio-container .box.image2 .image{
-    background: url('https://cdn.dribbble.com/users/257709/screenshots/4695956/singapoure_shot_0_5x.png');
+    background: url('https://cdn.dribbble.com/users/99875/screenshots/6482748/turtle-power.gif');
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -125,7 +126,7 @@
 }
 
 #portfolio-section .portfolio-container .box.image3 .image{
-    background: url('https://cdn.dribbble.com/users/257709/screenshots/4695956/singapoure_shot_0_5x.png');
+    background: url('https://cdn.dribbble.com/users/257709/screenshots/3664201/shot_pehia_50___1_.png');
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -138,7 +139,7 @@
 }
 
 #portfolio-section .portfolio-container .box.image4 .image{
-    background: url('https://cdn.dribbble.com/users/257709/screenshots/4695956/singapoure_shot_0_5x.png');
+    background: url('https://cdn.dribbble.com/users/257709/screenshots/4053506/wespr_first_0.5x.png');
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -151,7 +152,7 @@
 }
 
 #portfolio-section .portfolio-container .box.image5 .image{
-    background: url('https://cdn.dribbble.com/users/257709/screenshots/4695956/singapoure_shot_0_5x.png');
+    background: url('https://cdn.dribbble.com/users/257709/screenshots/5959474/ile-maurice.png');
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -164,7 +165,7 @@
 }
 
 #portfolio-section .portfolio-container .box.image6 .image{
-    background: url('https://cdn.dribbble.com/users/257709/screenshots/4695956/singapoure_shot_0_5x.png');
+    background: url('https://cdn.dribbble.com/users/1998175/screenshots/6356317/4.gif');
     height: 100%;
     width: 100%;
     background-size: cover;
