@@ -4,11 +4,11 @@
 @import "services.css";
 
 body{
-    background: #eeeeee;
+    /* background: #eeeeee; */
 }
 
 
 .container {
-    max-width: 1400px;
+    max-width: 1150px;
     margin: 0 auto;
 }

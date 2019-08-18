@@ -36,14 +36,50 @@
 #services .services-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
 }
 
 #services .services-container .box {
     background: rgba(255,255,255, 0);
+    padding: 40px;
     transition: all .4s ease-in-out;
 }
 
 #services .services-container .box:hover {
     background: rgba(255,255,255, 1);
+    -webkit-box-shadow: 0px 40px 74px 24px rgba(0,0,0,0.08);
+    -moz-box-shadow: 0px 40px 74px 24px rgba(0,0,0,0.08);
+    box-shadow: 0px 40px 74px 24px rgba(0,0,0,0.08);
+    cursor: pointer;
 }
 
+#services .services-container .box .fas {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#services .services-container .box h5 {
+    font-size: .9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    margin-bottom: 2rem; 
+}
+
+#services .services-container .box p {
+    font-size: .8rem;
+    line-height: 1.5;
+    color: #b3b3b3;
+}
+
+#services .services-container .box.blue{
+    border-bottom: 2px solid #52b8ff;
+}
+
+#services .services-container .box.red{
+    border-bottom: 2px solid #ff5253;
+}
+
+#services .services-container .box.yellow{
+    border-bottom: 2px solid #ffc853;
+}
