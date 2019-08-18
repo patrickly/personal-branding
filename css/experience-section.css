@@ -1,0 +1,62 @@
+#experience-section {
+    padding: 80px 15px;
+}
+#experience-section .large-title {
+    color: #c6e4ff;
+    font-weight: 900;
+    font-size: 4.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    left: -75px;
+}
+
+#experience-section .experience-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+#experience-section .experience-container .large-icons .square{
+    border: 30px solid #52b8ff;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    top: -100px;
+}
+#experience-section .experience-container .large-icons .square .blue-box{   
+    width: 150px;
+    height: 150px;
+    background: #52b8ff;
+    padding: 2px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+}
+#experience-section .experience-container .large-icons .circle{
+    border: 30px solid #ffc853;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#experience-section .experience-container .large-icons .white-box{
+    color: #ffc853;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
