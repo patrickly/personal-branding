@@ -47,6 +47,7 @@
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+    overflow: hidden;
 }
 
 #portfolio-section .portfolio-container .box:hover {
@@ -73,12 +74,30 @@
     grid-column: 1 / 3;
     grid-row: 1 / 2;
 }
+#portfolio-section .portfolio-container .box.image1 .image .hover-bg{
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0);
+    transition: all .4s ease-in-out;
+}
 
-#portfolio-section .portfolio-container .box.image1 .image .title .text{ 
+#portfolio-section .portfolio-container .box:hover .image .hover-bg {
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+#portfolio-section .portfolio-container .box.image1 .image .hover-bg .title .text{ 
     background: black;
     border-radius: 5px;
     padding: 10px 20px;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
+    transform: translate3d(0, 400px, 0 );
+    transition: all .5s ease-in-out .2s;
+    opacity: 0;
+}
+
+#portfolio-section .portfolio-container .box:hover .image .hover-bg .title .text{ 
+    background: black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transform: translate3d(0, 0, 0 );
+    opacity: 1;
 }
