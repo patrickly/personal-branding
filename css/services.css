@@ -43,6 +43,7 @@
     background: rgba(255,255,255, 0);
     padding: 40px;
     transition: all .4s ease-in-out;
+    cursor: pointer;
 }
 
 #services .services-container .box:hover {
@@ -50,7 +51,7 @@
     -webkit-box-shadow: 0px 40px 74px 24px rgba(0,0,0,0.08);
     -moz-box-shadow: 0px 40px 74px 24px rgba(0,0,0,0.08);
     box-shadow: 0px 40px 74px 24px rgba(0,0,0,0.08);
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 #services .services-container .box .fas {
