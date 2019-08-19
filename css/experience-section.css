@@ -43,7 +43,7 @@
     display: inline-block;
     border-radius: 50%;
     position: relative;
-    top: 50px;
+    top: 95px;
     left: 50px;
 }
 
@@ -59,4 +59,69 @@
     font-size: 1.1rem;
     letter-spacing: 3px;
     text-transform: uppercase;
+}
+
+#experience-section .experience-container .large-icons .triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 150px 230px 150px;
+    border-color: transparent transparent #ff5253 transparent;
+    position: relative;
+}
+#experience-section .experience-container .large-icons .triangle .triangle-box{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 93.75px 151.75px 93.75px;
+    border-color: transparent transparent #ffffff transparent;
+    position: absolute;
+    left: -94px;
+    top: 49px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ff5253;
+}
+
+#experience-section .experience-container .large-icons .triangle .triangle-box .text{
+    position: relative;
+    top: 98px;
+    left: -29px;
+}
+#experience-section .experience-container .info{
+    padding: 80px 0 0;
+}
+#experience-section .experience-container .info .info-box{
+    padding: 15px;
+}
+
+#experience-section .experience-container .info .info-box h4{
+    color: #16171c;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+#experience-section .experience-container .info .info-box .date{
+    color: #52b7ff;
+    font-size: .9rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    padding: 15px 0;
+    display: block;
+
+}
+
+#experience-section .experience-container .info .info-box p{
+    color: #b2b2b4;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    display: block;
+    line-height: 1.5;
+
 }
