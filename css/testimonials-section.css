@@ -34,6 +34,7 @@
     display: grid;
     grid-template-columns: 12% 76% 12%;
     grid-gap: 15px;
+    padding: 100px 0;
 }
 
 #testimonials-section .testimonials-container .test-center {
@@ -89,3 +90,20 @@
 }
 
 
+#testimonials-section .testimonials-container .test-sides {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#testimonials-section .testimonials-container .test-sides .person-img {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-color: #f2f3f5 !important;
+    height: 80%;
+    width: 100%;
+}
+
+#testimonials-section .testimonials-container .test-sides .person-img .hover-bg{
+
+}
