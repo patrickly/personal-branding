@@ -48,9 +48,23 @@ header .header-menu a {
     text-decoration: none;
     color: black;
     padding: 0 10px;
+    /* transition: all .3s ease-in-out; */
 }
 
+header .header-menu a:hover {
+    font-weight: 700;
+    color: #ff5253;
+}
 
+header .menu-btn {
+    font-weight: 700;
+    color: #ff5253;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-size: 2rem;
+}
 
 @media only screen and (max-width: 960px) {
     .container {
@@ -59,5 +73,7 @@ header .header-menu a {
 }
 
 @media only screen and (max-width: 767px) {
-
+    header .header-menu {
+        display: none;
+    }
 }
