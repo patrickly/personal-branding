@@ -94,3 +94,12 @@
     opacity: 1;
     transform: translate3d(0, 0, 0);
 } 
+
+/* Tablets  */
+@media only screen and (max-width: 960px) {
+
+}
+/* Phones */
+@media only screen and (max-width: 767px) {
+
+}
