@@ -97,9 +97,25 @@
 
 /* Tablets  */
 @media only screen and (max-width: 960px) {
-
+    #blog-section .blog-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 588px);
+        grid-gap: 15px;
+        overflow: hidden;
+    }
 }
 /* Phones */
 @media only screen and (max-width: 767px) {
+    #blog-section .title h1 {
+        font-size: 3rem;
+    }
 
+    #blog-section .blog-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 400px);
+        grid-gap: 15px;
+        overflow: hidden;
+    }
 }
