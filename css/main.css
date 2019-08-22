@@ -18,6 +18,40 @@
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+header .logo {
+    font-size: 1.5rem;   
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    background: black;
+    padding: 15px 20px;
+}
+
+header .header-menu {
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header-menu a {
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+}
+
+
+
 @media only screen and (max-width: 960px) {
     .container {
         width: 100%;
