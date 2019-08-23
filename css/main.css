@@ -29,10 +29,15 @@ header .logo {
     font-weight: 700;
     text-transform: uppercase;
     color: white;
-    background: black;
-    padding: 15px 20px;
 }
 
+header .logo .name {
+    background: black;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
 header .header-menu {
     font-size: 1rem;
     text-transform: uppercase;
@@ -63,7 +68,9 @@ header .menu-btn {
     justify-content: center;
     align-items: center;
     padding: 15px;
-    font-size: 2rem;
+    font-size: 1.6rem;
+    display: none;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 960px) {
@@ -75,5 +82,13 @@ header .menu-btn {
 @media only screen and (max-width: 767px) {
     header .header-menu {
         display: none;
+    }
+
+    header .menu-btn {
+        display: flex;
+    }
+
+    header .logo {
+        font-size: 1.3rem;   
     }
 }
